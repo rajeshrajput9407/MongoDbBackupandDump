@@ -13,7 +13,7 @@ Run Command : mongodump and Enter
 Backup is Ready now : in Dump folder
 ***************************************************************************************************************************************
 2. Restore Database In Mongo Database
-...../bin  mongorestore --db <NewDatabaseName> dump/<DatabaseName>
+<folder path>/bin  mongorestore --db <NewDatabaseName> dump/<DumpDatabaseName>
   
   NewDatabaseName : This is new Database Name and this db name will set in mongo Database name.
   DatabaseName: This is backup database name which is backuped in dump folder.
